@@ -1,0 +1,1 @@
+pyuic5 newNote.ui -o newNote.py
