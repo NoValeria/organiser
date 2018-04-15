@@ -6,6 +6,17 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 
 str_select_date = ''
 
+class NewNoteParams(object):
+    def __init__(self, startTime, endTime, date, title, description):
+        self.startTime = startTime
+        self.endTime = endTime
+        self.date = date
+        self.title = title
+        self.description = description
+
+
+
+
 class NewNoteController(QtWidgets.QDialog):
     def __init__(self, parent=None):
         try:
@@ -13,8 +24,27 @@ class NewNoteController(QtWidgets.QDialog):
             self.parent = parent
             self.ui = Ui_Form()
             self.ui.setupUi(self)
+            self.ui.addNoteButton.clicked.connect(self.addNoteButtonClick)
         except:
             pass
+    def addNoteButtonClick(self):
+        try:
+            #self.parent.new_note_params = NewNoteParams(
+            #    startTime=str(self.ui.startTimeSpinner),
+            #    endTime=str(self.ui.endTimeEdit),
+            #    date=str(self.ui.calendarWidget),
+            #    title=str(self.ui.nameTextPanel),
+            #    description=str(self.ui.descriptionTextPanel),
+            #)
+            self.parent.ui.listWidget.addItem(
+                str(self.ui.startTimeSpinner.text()) + '\n' +
+                str(self.ui.endTimeEdit.text()) + '\n' +
+                str(self.ui.calendarWidget.selectedDate().toString()) + '\n' +
+                str(self.ui.nameTextPanel.text()) + '\n' +
+                str(self.ui.descriptionTextPanel.toPlainText())
+            )
+        except:
+            print("111111111111111111111111111")
 
 
 class Calendar(QtWidgets.QDialog):
@@ -41,9 +71,11 @@ class MyWin(QtWidgets.QMainWindow):
         try:
             QtWidgets.QWidget.__init__(self, parent)
             self.ui = Ui_MainWindow()
+            #self.
             self.ui.setupUi(self)
             self.ui.pushButton.clicked.connect(self.MyFunction)
             self.ui.openNewNoteButton.clicked.connect(self.open_new_note_window)
+            self.new_note_params = None
             self.new_note_window = NewNoteController(parent=self)
             self.calendar = Calendar(parent=self)
         except:
@@ -51,6 +83,7 @@ class MyWin(QtWidgets.QMainWindow):
 
     def open_new_note_window(self):
         self.new_note_window.show()
+
 
     def MyFunction(self):
         self.calendar.show()

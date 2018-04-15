@@ -111,19 +111,9 @@
     <widget class="QTableView" name="tableView">
      <property name="geometry">
       <rect>
-       <x>420</x>
+       <x>480</x>
        <y>20</y>
-       <width>211</width>
-       <height>451</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QTableView" name="DayTask">
-     <property name="geometry">
-      <rect>
-       <x>160</x>
-       <y>20</y>
-       <width>256</width>
+       <width>151</width>
        <height>451</height>
       </rect>
      </property>
@@ -138,7 +128,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>TextLabel</string>
+      <string>Выбор даты</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton">
@@ -165,6 +155,16 @@
      </property>
      <property name="text">
       <string>Добавить задачу</string>
+     </property>
+    </widget>
+    <widget class="QListWidget" name="listWidget">
+     <property name="geometry">
+      <rect>
+       <x>155</x>
+       <y>20</y>
+       <width>321</width>
+       <height>451</height>
+      </rect>
      </property>
     </widget>
    </widget>
