@@ -1,1 +1,0 @@
-pyuic5 calendar.ui -o calendar.py
