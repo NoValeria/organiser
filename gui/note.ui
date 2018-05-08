@@ -170,7 +170,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Добавить
+    <string>Удалить
 заметку</string>
    </property>
   </widget>
