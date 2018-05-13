@@ -14,7 +14,8 @@ class NoteComparator(object):
         note_start_2 = note_2.get_start()
         note_end_1 = note_1.get_end()
         note_end_2 = note_2.get_end()
-        exception_message = "Заметки \"" + note_1.get_title() + "\" и \"" + note_2.get_title() + "\" перекрываются по времени"
+        exception_message = "Заметки \"" + note_1.get_title() + "\" и \"" + note_2.get_title()
+        exception_message += "\" перекрываются по времени"
         # сравниваем время начала и окончания
         if note_start_1 < note_end_2 <= note_end_1:
             raise Exception(exception_message)

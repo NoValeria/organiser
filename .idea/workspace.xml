@@ -2,39 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="172cfce0-680d-4ce4-b027-4b683af80341" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/300418.rar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/PyQT.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/V3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/V4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/V5.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Variant2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/at1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/att2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/controllers/new_note.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ex.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gui/converter_gui.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gui/converter_newNote.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gui/newNote.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gui/test1.ui" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gui/v2.ui" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/organiser.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/start.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/~$хническое описание.docx" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/~$я себя.docx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/техническое описание.docx" afterPath="$PROJECT_DIR$/техническое описание.docx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/delete_note.ui" afterPath="$PROJECT_DIR$/gui/delete_note.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/gui.py" afterPath="$PROJECT_DIR$/gui/gui.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/gui.ui" afterPath="$PROJECT_DIR$/gui/gui.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/newNote.ui" afterPath="$PROJECT_DIR$/gui/newNote.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/new_note.py" afterPath="$PROJECT_DIR$/gui/new_note.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gui/note.ui" afterPath="$PROJECT_DIR$/gui/note.ui" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/my_date.py" afterPath="$PROJECT_DIR$/utility/my_date.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/my_time.py" afterPath="$PROJECT_DIR$/utility/my_time.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/note.py" afterPath="$PROJECT_DIR$/utility/note.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/controllers.py" afterPath="$PROJECT_DIR$/controllers/controllers.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/__init__.py" afterPath="$PROJECT_DIR$/utility/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/note_comparator.py" afterPath="$PROJECT_DIR$/utility/note_comparator.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utility/note_loader.py" afterPath="$PROJECT_DIR$/utility/note_loader.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,38 +15,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-              <folding>
-                <marker date="1526220734299" expanded="true" signature="0:444" ph="import ..." />
-                <marker date="1526220734299" expanded="true" signature="511:634" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gui.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gui/gui.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="16" />
-              <folding>
-                <marker date="1526216952601" expanded="true" signature="264:19752" ph="..." />
-                <marker date="1526216952601" expanded="true" signature="299:15859" ph="..." />
-                <marker date="1526216952601" expanded="true" signature="15365:15859" ph="..." />
-                <marker date="1526216952601" expanded="true" signature="15901:19752" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="my_date.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utility/my_date.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1343">
+            <state relative-caret-position="17">
               <caret line="81" column="37" lean-forward="false" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
               <folding />
             </state>
@@ -86,8 +28,8 @@
       <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utility/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -95,10 +37,20 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="logger.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utility/logger.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="my_time.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utility/my_time.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
+            <state relative-caret-position="293">
               <caret line="76" column="9" lean-forward="false" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
               <folding />
             </state>
@@ -108,8 +60,8 @@
       <file leaf-file-name="controllers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/controllers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+            <state relative-caret-position="113">
+              <caret line="186" column="58" lean-forward="true" selection-start-line="186" selection-start-column="58" selection-end-line="186" selection-end-column="58" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
               </folding>
@@ -120,8 +72,28 @@
       <file leaf-file-name="note_loader.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utility/note_loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="113">
+              <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exceptions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exceptions/exceptions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exceptions/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -130,7 +102,7 @@
       <file leaf-file-name="note.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utility/note.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="17">
               <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding />
             </state>
@@ -140,16 +112,9 @@
       <file leaf-file-name="note_comparator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utility/note_comparator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-              <folding>
-                <marker date="1526220552779" expanded="true" signature="1282:1779" ph="..." />
-                <marker date="1526220552779" expanded="true" signature="1294:1450" ph="..." />
-                <marker date="1526220552779" expanded="true" signature="1369:1450" ph="..." />
-                <marker date="1526220552779" expanded="true" signature="1508:1779" ph="..." />
-                <marker date="1526220552779" expanded="true" signature="1591:1779" ph="..." />
-                <marker date="1526220552779" expanded="true" signature="1634:1779" ph="..." />
-              </folding>
+            <state relative-caret-position="147">
+              <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -194,8 +159,9 @@
         <option value="$PROJECT_DIR$/utility/note.py" />
         <option value="$PROJECT_DIR$/utility/my_date.py" />
         <option value="$PROJECT_DIR$/utility/my_time.py" />
-        <option value="$PROJECT_DIR$/utility/note_comparator.py" />
         <option value="$PROJECT_DIR$/utility/note_loader.py" />
+        <option value="$PROJECT_DIR$/utility/__init__.py" />
+        <option value="$PROJECT_DIR$/utility/note_comparator.py" />
         <option value="$PROJECT_DIR$/controllers/controllers.py" />
       </list>
     </option>
@@ -233,6 +199,16 @@
               <item name="organiser" type="b2602c69:ProjectViewProjectNode" />
               <item name="organiser" type="462c0819:PsiDirectoryNode" />
               <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organiser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organiser" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="organiser" type="b2602c69:ProjectViewProjectNode" />
+              <item name="organiser" type="462c0819:PsiDirectoryNode" />
+              <item name="utility" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -454,7 +430,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34493193" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24054463" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2761438" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -511,9 +487,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/att2.py" />
-    <entry file="file://$PROJECT_DIR$/at1.py" />
-    <entry file="file://$PROJECT_DIR$/PyQT.py" />
     <entry file="file://$PROJECT_DIR$/Variant2.py" />
     <entry file="file://$PROJECT_DIR$/V5.py" />
     <entry file="file://$PROJECT_DIR$/V4.py" />
@@ -624,16 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utility/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gui/error_window.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-194">
@@ -652,45 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utility/my_date.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1343">
-          <caret line="81" column="37" lean-forward="false" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utility/my_time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="76" column="9" lean-forward="false" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utility/note.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utility/note_comparator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
-          <folding>
-            <marker date="1526220552779" expanded="true" signature="1282:1779" ph="..." />
-            <marker date="1526220552779" expanded="true" signature="1294:1450" ph="..." />
-            <marker date="1526220552779" expanded="true" signature="1369:1450" ph="..." />
-            <marker date="1526220552779" expanded="true" signature="1508:1779" ph="..." />
-            <marker date="1526220552779" expanded="true" signature="1591:1779" ph="..." />
-            <marker date="1526220552779" expanded="true" signature="1634:1779" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gui/gui.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -704,18 +628,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utility/note_loader.py">
+    <entry file="file://$PROJECT_DIR$/utility/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility/my_date.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="81" column="37" lean-forward="false" selection-start-line="81" selection-start-column="37" selection-end-line="81" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility/my_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="76" column="9" lean-forward="false" selection-start-line="76" selection-start-column="9" selection-end-line="76" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility/note.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility/note_comparator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="17" column="29" lean-forward="false" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utility/note_loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="52" column="42" lean-forward="true" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exceptions/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exceptions/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="35" lean-forward="true" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/controllers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="41" column="38" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+        <state relative-caret-position="113">
+          <caret line="186" column="58" lean-forward="true" selection-start-line="186" selection-start-column="58" selection-end-line="186" selection-end-column="58" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>

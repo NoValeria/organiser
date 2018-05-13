@@ -103,7 +103,8 @@ class MyWin(QtWidgets.QMainWindow):
                 # получаем позицию начальной ячейки
                 cell_row, cell_column = NewNoteController.get_row_col(element.get_start(), element.get_date(), False)
                 # получаем позицию последней ячейки
-                cell_row_end, cell_column_end = NewNoteController.get_row_col(element.get_end(), element.get_date(), True)
+                cell_row_end, cell_column_end = NewNoteController.get_row_col(
+                                                                element.get_end(), element.get_date(), True)
                 MyWin.colorize_table(self.ui.tableWidget, element, cell_row, cell_column, cell_row_end)
 
     def load_current_day_notes(self, cur: MyDate):
@@ -145,7 +146,8 @@ class MyWin(QtWidgets.QMainWindow):
             if n.is_important():
                 brush = QBrush(QColor(255, 19, 74))
             # если ячейка не красная или белая
-            elif old_color.red() != 255 or (old_color.green() == 255 and old_color.blue() == 255 and old_color.red() == 255):
+            elif old_color.red() != 255 or (old_color.green() == 255 and old_color.blue() == 255
+                                            and old_color.red() == 255):
                 brush = QBrush(QColor(19, 255, 74))
             print(old_color.red())
             # QtCore.Qt.Dense4Pattern - позволяет красить ячейку в крапинку
