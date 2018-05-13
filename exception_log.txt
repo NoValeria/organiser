@@ -1,0 +1,8 @@
+1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+Ошибка про загрузке из базы данных
+Конечное время меньше или равно начальному!
+Заполните все поля!
+1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+Ошибка про загрузке из базы данных
+1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)
+Ошибка про загрузке из базы данных

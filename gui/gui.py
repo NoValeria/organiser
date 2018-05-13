@@ -8,7 +8,6 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 
-
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
@@ -57,10 +56,10 @@ class Ui_MainWindow(object):
         self.openNewNoteButton.setGeometry(QtCore.QRect(10, 200, 101, 23))
         self.openNewNoteButton.setObjectName("openNewNoteButton")
         self.listWidget = QtWidgets.QListWidget(self.frame)
-        self.listWidget.setGeometry(QtCore.QRect(10, 240, 271, 347))
+        self.listWidget.setGeometry(QtCore.QRect(5, 240, 312, 347))
         self.listWidget.setObjectName("listWidget")
         self.calendarWidget = QtWidgets.QCalendarWidget(self.frame)
-        self.calendarWidget.setGeometry(QtCore.QRect(0, 10, 311, 183))
+        self.calendarWidget.setGeometry(QtCore.QRect(5, 10, 312, 183))
         font = QtGui.QFont()
         font.setFamily("Times New Roman")
         font.setItalic(False)
@@ -77,7 +76,7 @@ class Ui_MainWindow(object):
         self.calendarWidget.setDateEditEnabled(True)
         self.calendarWidget.setObjectName("calendarWidget")
         self.tableWidget = QtWidgets.QTableWidget(self.frame)
-        self.tableWidget.setGeometry(QtCore.QRect(315, 10, 485, 578))
+        self.tableWidget.setGeometry(QtCore.QRect(335, 10, 454, 578))
         font = QtGui.QFont()
         font.setFamily("Times New Roman")
         self.tableWidget.setFont(font)
@@ -299,12 +298,9 @@ class Ui_MainWindow(object):
         item = QtWidgets.QTableWidgetItem()
         self.tableWidget.setHorizontalHeaderItem(6, item)
         item = QtWidgets.QTableWidgetItem()
-        brush = QtGui.QBrush(QtGui.QColor(255, 255, 255))
-        brush.setStyle(QtCore.Qt.Dense4Pattern)
-        item.setBackground(brush)
         self.tableWidget.setItem(0, 0, item)
         self.tableWidget.horizontalHeader().setCascadingSectionResizes(False)
-        self.tableWidget.horizontalHeader().setDefaultSectionSize(61)
+        self.tableWidget.horizontalHeader().setDefaultSectionSize(57)
         self.tableWidget.horizontalHeader().setMinimumSectionSize(39)
         self.tableWidget.verticalHeader().setVisible(True)
         self.tableWidget.verticalHeader().setDefaultSectionSize(18)
