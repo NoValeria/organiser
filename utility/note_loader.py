@@ -38,7 +38,7 @@ class NoteLoader(object):
         """данный метод загружает заметки за неделю, в которой находится дата selected_date"""
         try:
             request = "SELECT * FROM notes WHERE week_number=%s AND `year`=%s;"
-            params = (selected_date.get_number_of_week(), selected_date.get_year())
+            params = (str(selected_date.get_number_of_week()), str(selected_date.get_year()))
             conn = mysql.connector.connect(host=host, database=database, user=user, password=password)
             cursor = conn.cursor()
             cursor.execute(request, params)
@@ -64,8 +64,8 @@ class NoteLoader(object):
     def delete(note: Note):
         """данный метод удаляет заметку из базы данных"""
         try:
-            request = "DELETE FROM notes WHERE (`day`=%s AND `month`=%s AND `year`=%s "
-            request += "AND `start_time`=%s);"
+            request = "DELETE FROM notes WHERE `day`=%s AND `month`=%s AND `year`=%s "
+            request += "AND `start_time`=%s;"
             params = (str(note.get_date().get_day()),
                       str(note.get_date().get_month_number()),
                       str(note.get_date().get_year()),

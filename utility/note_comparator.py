@@ -25,6 +25,12 @@ class NoteComparator(object):
             raise Exception(exception_message)
         if note_start_2 < note_end_1 <= note_end_2:
             raise Exception(exception_message)
+        # сравнение важности для двух задач
+        #if note_1.is_important() and not note_2.is_important() and (note_start_1 < note_end_2 <= note_end_1 or note_start_1 <= note_start_2 < note_end_1):
+            #note_start_2 = note_end_1
+        #if note_2.is_important() and not note_1.is_important() and (note_start_2 < note_end_1 <= note_end_2 or note_start_2 <= note_start_1 < note_end_2):
+            #note_start_1 = note_end_2
+
 
     @staticmethod
     def compare_note_with_array(note: Note, array):

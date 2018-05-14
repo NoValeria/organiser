@@ -10,6 +10,7 @@ class Note(object):
             raise MyException("Конечное время меньше или равно начальному!")
         if title == "" or description == "":
             raise MyException("Заполните все поля!")
+        #  заполнение полей объекта
         self.__start = start
         self.__end = end
         self.__date = date
@@ -18,6 +19,7 @@ class Note(object):
         self.__important = important
 
     def __str__(self):
+        """строковое представление заметки"""
         answer = str(self.__start) + "-" + str(self.__end) + " "
         answer += str(self.__date) + "\n" + self.__title + "\n" + self.__description
         return answer
