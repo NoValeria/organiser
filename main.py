@@ -1,16 +1,33 @@
-﻿# В модуле sys содержатся функции и константы для взаимодействия с интерпретатором Python.
-import sys
-# Связываемся с классом MyWin в файле controllers
-from controllers import MyWin, controllers
+import socket
+import numpy as np
+from _thread import * # упрощает работу с потоками и позволяет программировать запуск нескольких операций одновременно
 
-# Модуль QtWidgets содержит классы,
-# которые обеспечивают набор UI-элементов для создания классических пользовательских интерфейсов.
-# Виджет Qwidget является базовым классом для всех объектов интерфейса пользователя в PyQt5.   
-from PyQt5 import QtWidgets   
+# Подключение классов, описанных в других файлах
+from Card import Cards
+from Card import Joker
+from Card import Pack
+from Card import Hand
+from Card import Line
+from Card import Player
+from Errors import MyException
 
-# показываем окно органайзера
-if __name__ == "__main__":
-        app = QtWidgets.QApplication(sys.argv)
-        myapp = MyWin()
-        myapp.show()
-        sys.exit(app.exec_())
+
+sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM, 0) # создание сокета
+
+try:
+    sock.bind(('', 48666)) # первый элемент - хост, второй - порт
+except socket.error as er:
+    print(str(er))
+
+sock.listen() #не установлено кол-во пользователей, способных подключаться к данному порту (?)
+conn, addr = sock.accept() # принимаем подключение, conn - новый сокет, addr - адрес клиента
+
+while True: # получение данных от клиента
+    data = conn.recv(1024) # "порции данных"
+    if not data:
+        break
+    conn.send(data.upper())
+
+### обработка данных
+
+conn.close() # закрытие соединения
